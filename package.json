@@ -1,0 +1,22 @@
+{
+  "name": "http-api-assignment-ii",
+  "version": "1.0.0",
+  "description": "Further practice with the http api, requests, responses, and fetch",
+  "homepage": "https://github.com/tr0523/http-api-assignment-ii#readme",
+  "bugs": {
+    "url": "https://github.com/tr0523/http-api-assignment-ii/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tr0523/http-api-assignment-ii.git"
+  },
+  "license": "ISC",
+  "author": "Taryn Ryden",
+  "type": "commonjs",
+  "main": "eslint.config.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  }
+}
